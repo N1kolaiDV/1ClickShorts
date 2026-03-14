@@ -1,0 +1,34 @@
+{
+  "name": "mentefinanciera",
+  "inherits": "default",
+  "character": {
+    "enabled": true,
+    "sprite_pack": "assets/profiles/mentefinanciera/character",
+    "scale": 1.5,
+    "position": { "x": 540, "y": 1650 } 
+  },
+  "voice_model": "jBlmi27XRORxjPquUeCh", 
+  "elevenlabs_style": {
+    "stability": 0.65,
+    "similarity_boost": 0.85,
+    "style": 0.10,
+    "use_speaker_boost": true
+  },
+  "background": { 
+    "path": "assets/profiles/mentefinanciera/minimal_dark.mp4",
+    "blur": 15 
+  },
+  "layout": {
+    "stock": {
+      "scale": 1.0,
+      "position": { "x": 540, "y": 550 },
+      "border": { "enabled": true, "thickness": 12, "color": "white" }
+    },
+    "subtitles": {
+      "preset_path": "assets/subtitles/mrbeast.ass",
+      "fontsize": 95,
+      "marginv": 160,
+      "highlight_color": "&H0000FFFF&"
+    }
+  }
+}
